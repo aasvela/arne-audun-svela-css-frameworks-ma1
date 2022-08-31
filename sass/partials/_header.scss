@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  background-color: $primary;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__inner {
+    margin: 0 4rem;
+  }
+}
