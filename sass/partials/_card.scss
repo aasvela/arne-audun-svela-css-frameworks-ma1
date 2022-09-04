@@ -1,20 +1,29 @@
-.product {
+.card {
   margin: 1rem;
-  width: 200px;
-  height: 200px;
-  border: solid black 1px;
-  margin: 1rem;
-  &_inner {
-
-  }
+  height: 14rem;
+  width: 14rem;
+  box-shadow: grey 0px 2px 2px 0px;
+  border-radius: 10px;
   &--beige {
     background-color: $primary;
   }
   &--white {
     background-color: white;
-    border-color: $secondary;
+    border: solid $secondary 1px;
   }
   &--pink {
     background-color: $secondary;
+  }
+}
+@media (max-width: 767px) {
+  .card {
+    width: 60vw;
+    height: 60vw;
+  }
+}
+@media (max-width: 565px) {
+  .card {
+    width: 80vw;
+    height: 80vw;
   }
 }

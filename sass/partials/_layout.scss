@@ -6,7 +6,6 @@ body {
 body {
   //   font-family: 'Archivo Narrow', sans-serif;
   background-color: $background-colour;
-  color: white;
   display: flex;
   flex-direction: column;
 }
@@ -37,20 +36,4 @@ footer i {
 
 .wrapper {
   flex: 1 0 auto;
-}
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-  &__item {
-    margin: 0.5em;
-    max-width: 250px;
-  }
 }

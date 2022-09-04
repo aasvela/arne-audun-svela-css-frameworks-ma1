@@ -1,45 +1,15 @@
-// .navbar-brand {
-//   font-family: 'Julius Sans One', sans-serif;
-//   font-size: 32px;
-//   //   color: white !important;
-// }
-
-.nav {
-  display: flex;
-  align-items: center;
-
-  background-color: $primary;
-  &__inner {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-  }
-  &__item {
-    color: $dark;
-    margin-left: 3rem;
-  }
-  &__link {
-    color: $dark;
-  }
-  &__link--active {
-    color: $secondary;
-  }
+.navbar {
+  background-color: $primary !important;
+  text-transform: uppercase;
 }
 
-// .navbar {
-//   color: $primary;
-//   text-transform: uppercase;
-// }
-
-// .navbar-dark .navbar-nav .nav-link {
-//   color: $dark;
-//   font-size: 15px;
-// }
-
-// .navbar-collapse {
-//   z-index: 1;
-// }
-// .navbar-dark .navbar-nav .active {
-//   color: $secondary;
-// }
+.navbar-dark .navbar-nav .nav-link {
+  color: $dark;
+  font-size: 15px;
+}
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: $secondary;
+}
+.navbar-collapse {
+  z-index: 1;
+}
