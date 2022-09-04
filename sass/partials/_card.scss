@@ -1,7 +1,12 @@
-.card {
+.product {
+  margin: 1rem;
   width: 200px;
   height: 200px;
+  border: solid black 1px;
+  margin: 1rem;
+  &_inner {
 
+  }
   &--beige {
     background-color: $primary;
   }
