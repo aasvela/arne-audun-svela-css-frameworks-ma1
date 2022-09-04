@@ -1,11 +1,9 @@
 $primary: #f4f3ee;
 $secondary: #f54b8d;
-$dark: #262525;
-// $navbar-dark-color: $primary;
-// $navbar-dark-active-color: $primary;
-
+$dark-text: #262525;
 $background-color: #e5e5e5;
-$bg-light: $primary;
+$navbar-dark-color: $dark-text;
+$navbar-dark-active-color: $secondary;
 
 @media (max-width: 767px) {
   .card {
